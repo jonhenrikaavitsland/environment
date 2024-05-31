@@ -1,12 +1,14 @@
 {
   "name": "environment",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "environment",
   "type": "module",
   "main": "src/js/index.mjs",
   "scripts": {
     "test": "node src/js/index.mjs",
-    "format": "prettier -w src/js/index.mjs"
+    "format": "prettier -w src/**/*.{js,mjs}",
+    "lint": "eslint src/**/*.{js,mjs}",
+    "lint-fix": "eslint src/**/*.{js,mjs} --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,9 @@
   },
   "homepage": "https://github.com/jonhenrikaavitsland/environment#readme",
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
     "prettier": "^3.2.5"
   }
 }
