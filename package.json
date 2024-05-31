@@ -2,6 +2,7 @@
   "name": "environment",
   "version": "0.0.1",
   "description": "environment",
+  "type": "module",
   "main": "src/js/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
