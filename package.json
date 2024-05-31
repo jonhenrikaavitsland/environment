@@ -1,10 +1,13 @@
 {
   "name": "environment",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "environment",
   "type": "module",
   "main": "src/js/index.mjs",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "node src/js/index.mjs",
     "format": "prettier -w src/**/*.{js,mjs}",
     "lint": "eslint src/**/*.{js,mjs}",
@@ -30,7 +33,8 @@
     "globals": "^15.3.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.5",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "vite": "^3.1.0"
   },
   "lint-staged": {
     "*.js": [
