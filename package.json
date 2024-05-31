@@ -1,0 +1,22 @@
+{
+  "name": "environment",
+  "version": "0.0.1",
+  "description": "environment",
+  "main": "src/js/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonhenrikaavitsland/environment.git"
+  },
+  "keywords": [
+    "environment"
+  ],
+  "author": "Jon Henrik Åvitsland (https://www.linkedin.com/in/jon-henrik-aavitsland-abaa872b7/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonhenrikaavitsland/environment/issues"
+  },
+  "homepage": "https://github.com/jonhenrikaavitsland/environment#readme"
+}
