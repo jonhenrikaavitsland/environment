@@ -6,7 +6,7 @@
   "main": "src/js/index.mjs",
   "scripts": {
     "test": "node src/js/index.mjs",
-    "format": "prettier -w src/js/index.mjs"
+    "format": "prettier -w src/**/*.{js,mjs}"
   },
   "repository": {
     "type": "git",
