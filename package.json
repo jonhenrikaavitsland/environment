@@ -1,0 +1,27 @@
+{
+  "name": "environment",
+  "version": "0.1.0",
+  "description": "environment",
+  "type": "module",
+  "main": "src/js/index.mjs",
+  "scripts": {
+    "test": "node src/js/index.mjs",
+    "format": "prettier -w src/js/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonhenrikaavitsland/environment.git"
+  },
+  "keywords": [
+    "environment"
+  ],
+  "author": "Jon Henrik Åvitsland (https://www.linkedin.com/in/jon-henrik-aavitsland-abaa872b7/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonhenrikaavitsland/environment/issues"
+  },
+  "homepage": "https://github.com/jonhenrikaavitsland/environment#readme",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
