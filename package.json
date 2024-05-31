@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jonhenrikaavitsland/environment/issues"
   },
-  "homepage": "https://github.com/jonhenrikaavitsland/environment#readme"
+  "homepage": "https://github.com/jonhenrikaavitsland/environment#readme",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
