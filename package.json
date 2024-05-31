@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src/js/index.mjs",
   "scripts": {
-    "test": "node src/js/index.mjs"
+    "test": "node src/js/index.mjs",
+    "format": "prettier -w src/js/index.mjs"
   },
   "repository": {
     "type": "git",
