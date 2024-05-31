@@ -7,7 +7,8 @@
   "scripts": {
     "test": "node src/js/index.mjs",
     "format": "prettier -w src/**/*.{js,mjs}",
-    "lint": "eslint src/**/*.{js,mjs}"
+    "lint": "eslint src/**/*.{js,mjs}",
+    "lint-fix": "eslint src/**/*.{js,mjs} --cache --fix"
   },
   "repository": {
     "type": "git",
