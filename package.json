@@ -10,6 +10,8 @@
     "preview": "vite preview",
     "test": "npm run test-unit",
     "test-unit": "jest",
+    "test-2": "npm run test-e2e",
+    "test-e2e": "cypress open",
     "format": "prettier -w src/**/*.{js,mjs}",
     "lint": "eslint src/**/*.{js,mjs}",
     "lint-fix": "eslint src/**/*.{js,mjs} --cache --fix",
